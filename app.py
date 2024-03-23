@@ -14,6 +14,8 @@ from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from matplotlib import pyplot as plt
+
 
 df=pd.read_excel('cars.xls')
 
